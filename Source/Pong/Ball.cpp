@@ -2,6 +2,13 @@
 
 
 #include "Ball.h"
+#include "Components/SphereComponent.h"
+#include "GameFramework/ProjectileMovementComponent.h"
+#include "PaperSpriteComponent.h"
+#include "UObject/ConstructorHelpers.h"
+#include "PaperFlipbook.h"
+
+
 
 // Sets default values
 ABall::ABall()
@@ -23,5 +30,9 @@ void ABall::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ABall::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
 }
 
