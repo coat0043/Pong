@@ -43,7 +43,7 @@ protected:
 
 	/** projectile class template  */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Projectile Blueprint")
-		TSubclassOf<class AProjectile> ProjectileTemplate;
+		TSubclassOf<class ABall> ProjectileTemplate;
 
 	/*Handled Blocking/Hit collision*/
 	UFUNCTION()

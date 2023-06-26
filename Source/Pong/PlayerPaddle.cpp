@@ -8,7 +8,7 @@
 #include "Components/SphereComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Kismet/GameplayStatics.h"
-#include "Classes/PaperSprite.h"
+#include "PaperSprite.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Components/ArrowComponent.h"
 

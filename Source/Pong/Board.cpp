@@ -22,9 +22,9 @@ ABoard::ABoard()
 	TopSprite->SetupAttachment(RootComponent);
 	TopSprite->SetRelativeLocation(FVector(0.f, 0.f, 0.f));
 
-	BottomSprite = CreateDefaultSubobject<UPaperSpriteComponent>(TEXT("PaperFlipbookComponent"));
+	/*BottomSprite = CreateDefaultSubobject<UPaperSpriteComponent>(TEXT("PaperFlipbookComponent2"));
 	BottomSprite->SetupAttachment(RootComponent);
-	BottomSprite->SetRelativeLocation(FVector(0.f, 0.f, 0.f));
+	BottomSprite->SetRelativeLocation(FVector(0.f, 0.f, 0.f));*/
 
 	//Set the collision boxes
 	TopComponent = CreateDefaultSubobject<UBoxComponent>("TopComponent");

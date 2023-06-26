@@ -18,8 +18,8 @@ class PONG_API ABoard : public AActor
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Config", meta = (AllowPrivateAccess = "true"))
 		class UPaperSpriteComponent* TopSprite;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Config", meta = (AllowPrivateAccess = "true"))
-		class UPaperSpriteComponent* BottomSprite;
+	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Config", meta = (AllowPrivateAccess = "true"))
+	//	class UPaperSpriteComponent* BottomSprite;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Config", meta = (AllowPrivateAccess = "true"))
 		class UBoxComponent* TopComponent;
