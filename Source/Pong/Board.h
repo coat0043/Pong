@@ -16,7 +16,7 @@ class PONG_API ABoard : public AActor
 		class USceneComponent* SceneComponent;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Config", meta = (AllowPrivateAccess = "true"))
-		class UPaperSpriteComponent* TopSprite;
+		class UPaperSpriteComponent* PaperSprite;
 
 	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Config", meta = (AllowPrivateAccess = "true"))
 	//	class UPaperSpriteComponent* BottomSprite;

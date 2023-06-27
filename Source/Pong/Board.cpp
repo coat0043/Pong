@@ -18,9 +18,9 @@ ABoard::ABoard()
 	SetRootComponent(SceneComponent);
 
 	//Set the top and bottom sprites
-	TopSprite = CreateDefaultSubobject<UPaperSpriteComponent>(TEXT("PaperFlipbookComponent"));
-	TopSprite->SetupAttachment(RootComponent);
-	TopSprite->SetRelativeLocation(FVector(0.f, 0.f, 0.f));
+	PaperSprite = CreateDefaultSubobject<UPaperSpriteComponent>(TEXT("PaperFlipbookComponent"));
+	PaperSprite->SetupAttachment(RootComponent);
+	PaperSprite->SetRelativeLocation(FVector(0.f, 0.f, 0.f));
 
 	/*BottomSprite = CreateDefaultSubobject<UPaperSpriteComponent>(TEXT("PaperFlipbookComponent2"));
 	BottomSprite->SetupAttachment(RootComponent);
